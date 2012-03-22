@@ -1,4 +1,8 @@
-# python startup file
+# Sourced by Python at start-up
+#
+# export PYTHONSTARTUP=~/.startup.py
+#
+
 import readline
 import rlcompleter
 import atexit
