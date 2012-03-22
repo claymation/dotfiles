@@ -1,0 +1,9 @@
+*
+.*
+!.gitconfig
+!.gitignore
+!.gitignore-global
+!.bashrc
+!.bash_profile
+!.startup.py
+

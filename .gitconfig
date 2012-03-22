@@ -1,0 +1,9 @@
+[user]
+	name = Clay McClure
+	email = clay@daemons.net
+[push]
+	default = current
+[core]
+	excludesfile = /Users/clay/.gitignore-global
+[github]
+	user = claymation
