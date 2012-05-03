@@ -7,3 +7,5 @@
 	excludesfile = /Users/clay/.gitignore-global
 [github]
 	user = claymation
+[branch]
+	autosetuprebase = always
