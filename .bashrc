@@ -3,6 +3,20 @@ PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH"
 
 export PYTHONSTARTUP=~/.startup.py
 
+function workon() {
+    name=$1
+
+    if [ -z "$name" ]
+    then
+        echo "usage: $0 <name>"
+        return 1
+    fi
+
+    cd ~/Projects/$name
+    source bin/activate
+    cd src/$name
+}
+
 function makevenv() {
     name=$1
 
