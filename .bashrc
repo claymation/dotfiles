@@ -36,8 +36,8 @@ function makevenv() {
     source $venv/bin/activate
 
     # Create the git repo
-    git init $name/src/$name
-    cd $name/src/$name
+    git init $venv/src/$name
+    cd $venv/src/$name
 
     # Add the Github remote
     user=`git config --global --get github.user`
