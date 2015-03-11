@@ -9,3 +9,14 @@
 	user = claymation
 [branch]
 	autosetuprebase = always
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[sendemail]
+    smtpencryption = tls
+    smtpserver = smtp.gmail.com
+    smtpuser = clay@daemons.net
+    smtpserverport = 587
+[credential]
+	helper = osxkeychain
