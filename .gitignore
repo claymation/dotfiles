@@ -6,4 +6,5 @@
 !.bashrc
 !.bash_profile
 !.startup.py
-
+!.vim/
+!.vimrc
