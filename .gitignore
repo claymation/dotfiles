@@ -1,5 +1,9 @@
+# Ignore these
 *
 .*
+.vim/.netrwhist
+
+# Don't ignore these
 !.gitconfig
 !.gitignore
 !.gitignore-global
